@@ -14,12 +14,12 @@ const Header = () =>
                 </div>
 
                 <div className={styles["navigation"]}>
-                    <ul>
-                        <li>About Us</li>
-                        <li>Our Services</li>
-                        <li>Get a roommate</li>
-                        <li>FAQ</li>
-                        <li><Button size="small" addIcon>GET STARTED</Button></li>
+                    <ul className={styles["nav-items"]}>
+                        <li className={styles["item"]}>About Us</li>
+                        <li className={styles["item"]}>Our Services</li>
+                        <li className={styles["item"]}>Get a roommate</li>
+                        <li className={styles["item"]}>FAQ</li>
+                        <li className={styles["item"]}><Button size="small" minWidth addIcon>GET STARTED</Button></li>
                     </ul>                
                 </div>
             </div>

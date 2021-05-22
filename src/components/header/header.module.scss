@@ -25,5 +25,23 @@
     .navigation
     {
         padding-right: 2rem;
+        display: flex;
+        align-items: center;
+
+        .nav-items
+        {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .item
+        {
+            list-style-type: none;
+            margin-left: 1.2rem;
+            color: #333333;
+            cursor: pointer;
+        }
     }
 }
