@@ -1,0 +1,32 @@
+.button
+{
+    border-radius: 0.3rem;
+    padding: 0.6rem 1.2rem;
+    border: 1px solid #001348;
+    outline: none;
+    transition: 0.3s ease-out;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &.primary
+    {
+        background-color: #001348;
+        color: #fafafa;
+    }
+
+    &.min-width
+    {
+        min-width: 8rem;
+    }
+
+    &.large
+    {
+        padding: 0.8rem 2rem;
+    }
+    &.small
+    {
+        font-size: smaller;
+        padding: 0.4rem 1rem;
+    }
+}
