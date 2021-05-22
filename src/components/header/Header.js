@@ -1,13 +1,14 @@
-import React, { useState } from "react"
+import React from "react"
 import Button from "../button/Button"
 import styles from "./header.module.scss"
 
 
-const Header = () => 
+const Header = props =>
 {
+    const {className } = props
     return (
         <>
-            <div className={styles["header"]}>
+            <div className={[styles["header"], className].join(" ")}>
                 <div className={styles["logo-section"]}>
                     <img src='/icons/logo.svg' alt="logo"/>
                     <h1 className={styles["title"]}>Flatshare</h1>

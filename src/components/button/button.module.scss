@@ -16,6 +16,15 @@
         color: #fafafa;
     }
 
+    &.light
+    {
+        background-color: #F6F7F7;
+        color: #333333;
+        font-weight: 400;
+        font-size: 18px;
+        border: none;
+    }
+
     &.min-width
     {
         min-width: 8rem;
