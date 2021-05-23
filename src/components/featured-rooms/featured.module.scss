@@ -1,0 +1,47 @@
+.section
+{
+    margin-top: 5rem;
+    margin-bottom: 20rem;
+
+    .title
+    {
+        text-align: center;
+        margin-bottom: 4rem;
+        .title-h2
+        {
+            overflow: hidden;
+            color: #001348;
+            font-weight: 700;
+            font-size: 40px;
+        }
+        .title-h2::before,
+        .title-h2::after
+        {
+            background-color: #000;
+            content: "";
+            display: inline-block;
+            height: 1px;
+            position: relative;
+            vertical-align: middle;
+            width: 50%;
+        }
+        .title-h2:before {
+            right: 0.5em;
+            margin-left: -50%;
+            }
+            
+        .title-h2:after {
+            left: 0.5em;
+            margin-right: -50%;
+        }
+
+        .title-cont
+        {
+            color: #001348;
+            font-weight: 700;
+            font-size: 40px;
+            padding-bottom: 1rem;
+        }
+
+    }
+}
