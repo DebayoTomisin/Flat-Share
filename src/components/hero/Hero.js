@@ -1,7 +1,6 @@
 import React from "react"
 import styles from "./hero.module.scss"
 import Button from "../button/Button"
-import Roomates from "../roommates/Roomates"
 
 const Hero = props => 
 {
