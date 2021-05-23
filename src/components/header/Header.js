@@ -20,7 +20,7 @@ const Header = props =>
                         <li className={styles["item"]}>Our Services</li>
                         <li className={styles["item"]}>Get a roommate</li>
                         <li className={styles["item"]}>FAQ</li>
-                        <li className={styles["item"]}><Button size="small" minWidth addIcon>GET STARTED</Button></li>
+                        <li className={styles["item"]}><Button size="small" minWidth addIcon="right">GET STARTED</Button></li>
                     </ul>                
                 </div>
             </div>

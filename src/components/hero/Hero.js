@@ -1,6 +1,7 @@
 import React from "react"
 import styles from "./hero.module.scss"
 import Button from "../button/Button"
+import Roomates from "../roommates/Roomates"
 
 const Hero = props => 
 {
@@ -27,11 +28,9 @@ const Hero = props =>
                 </div>
                 <div className={styles["main-image"]}>
                     <img src="images/standing-lady.svg" alt="woman basically"/>
-                </div>
-                
-            </div>
-
-        </div>
+                </div>   
+            </div>  
+        </div>        
     )
 }
 

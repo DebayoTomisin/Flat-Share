@@ -1,0 +1,38 @@
+.card
+{
+    background: #FFFFFF;
+    box-shadow: 0px 4px 20px #EAF7FD;
+    margin: -7rem 8rem 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 3rem;
+    position: relative;
+    z-index: 10000;
+
+    .title
+    {
+        text-align: center;
+        padding-top: 3rem;
+        font-weight: 700;
+        color: #333333;
+        padding-bottom: 2rem;
+    }
+
+    .images{
+        display: flex;
+        justify-content: space-evenly;
+        
+        .image
+        {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .description
+        {
+            text-align: center;
+        }
+    }
+}
