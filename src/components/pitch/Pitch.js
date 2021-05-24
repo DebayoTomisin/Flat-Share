@@ -54,8 +54,10 @@ const Pitch = props =>
                     </div>
 
                 </div>
-                
-                
+            </div>
+
+            <div className={styles["customer-credits"]}>
+                <h1>Our clients speak</h1>
             </div>
         </div>
         

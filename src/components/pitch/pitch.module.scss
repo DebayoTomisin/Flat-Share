@@ -1,61 +1,78 @@
 .pitch
 {
-    padding: 0 3rem;
     margin-bottom: 7rem;
 
-    .title
+    .why-section
     {
-        font-weight: 800;
-        padding-bottom: 3rem;
-        color: #18191F;
-        font-size: 2.5rem;
-    }
-
-    .why-points-section
-    {
-        display: grid;
-        gap: 1.5rem;
-        width: 100%;
-        grid-template-rows: repeat(2, 1fr);
-        grid-template-columns: repeat(2,1fr);
-
-        .why-points
+        padding: 0 3rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .title
         {
-            display: flex;
-            align-items: center;
-            justify-content: flex-end;
+            align-self: flex-start;
+            font-weight: 800;
+            padding-bottom: 3rem;
+            color: #18191F;
+            font-size: 2.5rem;
+        }
+        .why-points-section
+        {
+            display: grid;
+            gap: 1.5rem;
             width: 100%;
+            grid-template-rows: repeat(2, 1fr);
+            grid-template-columns: repeat(2,1fr);
 
-            .icon-space
+            .why-points
             {
-                background: #F4F5F7;
-                width: 30px;
-                height: 30px;
-                padding: 1rem;
-                margin-right: 1rem;
-                border-radius: 50%;
                 display: flex;
                 align-items: center;
-                justify-content: center;
-            }
+                justify-content: flex-end;
+                width: 100%;
 
-            .content
-            {
-                font-size: 14px;
-                padding-bottom: 1rem;
-
-                .content-title
+                .icon-space
                 {
-                    padding-bottom: 0.8rem;
-                    color: #18191F;
+                    background: #F4F5F7;
+                    width: 30px;
+                    height: 30px;
+                    padding: 1rem;
+                    margin-right: 1rem;
+                    border-radius: 50%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
                 }
 
-                .content-para
+                .content
                 {
-                    width: 80%;
+                    font-size: 14px;
+                    padding-bottom: 1rem;
+
+                    .content-title
+                    {
+                        padding-bottom: 0.8rem;
+                        color: #18191F;
+                    }
+
+                    .content-para
+                    {
+                        width: 80%;
+                    }
                 }
             }
         }
+    
+    }
+
+    .customer-credits
+    {
+        background: #0095D8;
+        margin-top: 5rem;
+        height: 20rem;
+        color: #fafafa;
+        display: flex;
+        padding: 3rem;
     }
 
     
