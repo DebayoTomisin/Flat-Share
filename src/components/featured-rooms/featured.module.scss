@@ -44,4 +44,65 @@
         }
 
     }
+
+    .find-room
+    {
+        margin-top: 2rem;
+        display: flex;
+        padding: 0 3rem;
+
+        .img-desc 
+        {
+            width: 50%;
+        }
+
+        .instructions
+        {
+            display: flex;
+            width: 50%;
+            flex-direction: column;
+
+            .list
+            {
+                display: flex;
+                margin-bottom: 2rem;
+
+                .number
+                {
+                    text-align: center;
+                    .numbering
+                    {
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        background: #001348;
+                        color: #fff;
+                        height: 30px;
+                        width: 30px;
+                        border-radius: 50%;
+                        margin-bottom: 1rem;
+                    }
+                }
+                .steps
+                {
+                    padding-left: 3rem;
+                    .steps-title
+                    {
+                        font-size: 24px;
+                        color:#18191F;
+                    }
+
+                    .steps-para
+                    {
+                        font-size: 15px;
+                        padding-top: 0.3em;
+                        width: 80%;
+                        color: #666666;
+                    }
+                }
+                
+            }
+
+        }
+    }
 }
