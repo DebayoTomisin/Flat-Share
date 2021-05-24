@@ -105,4 +105,38 @@
 
         }
     }
+
+    .featured-section
+    {
+        padding-top: 2rem;
+        margin-top: 4rem;
+        background: #FAFBFB;
+        width: 100%;        
+
+        .all-rooms
+        {
+            display: flex;
+            flex-direction: row;
+            margin: 0 1.2rem;
+            justify-content: space-evenly;
+            margin-bottom: 2rem;
+
+            .room
+            {
+                background: #FFFFFF;
+                .text
+                {
+                    padding: 0.1em 0.8rem;
+                }
+            }
+        }
+
+        .ft-button
+        {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding-bottom: 2rem;
+        }
+    }
 }

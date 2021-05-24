@@ -1,5 +1,6 @@
 import React from "react"
 import styles from "./featured.module.scss"
+import Button from "../button/Button"
 
 const FeaturedRooms = props =>
 {
@@ -73,7 +74,42 @@ const FeaturedRooms = props =>
                         </div>
                     </div>                   
                 </div>
-            </div>           
+            </div>
+
+
+            <div className={styles["featured-section"]}>
+                <h1 className={styles["title"]}>Featured Flats</h1>
+                <div className={styles["all-rooms"]}>
+
+                    <div className={styles["room"]}>
+                        <img alt="room one" src="/images/Rectangle 615.png"/>
+                        <h5 className={styles["text"]}>Well furnished 3 bedroom flat</h5>
+                        <p className={styles["text"]}>Yaba Axis</p>
+                    </div>
+
+                    <div className={styles["room"]}>
+                        <img alt="room one" src="/images/Rectangle 616.png"/>
+                        <h5 className={styles["text"]}>Well furnished 3 bedroom flat</h5>
+                        <p className={styles["text"]}>Victoria Island</p>
+                    </div>
+
+                    <div className={styles["room"]}>
+                        <img alt="room one" src="/images/Rectangle 617.png"/>
+                        <h5 className={styles["text"]}>Well furnished 3 bedroom flat</h5>
+                        <p className={styles["text"]}>Ajah Axis</p>
+                    </div>
+
+                    <div className={styles["room"]}>
+                        <img alt="room one" src="/images/Rectangle 618.png"/>
+                        <h5 className={styles["text"]}>Well furnished 3 bedroom flat</h5>
+                        <p className={styles["text"]}>Surulere Axis</p>
+                    </div>
+                </div>
+                <div className={styles["ft-button"]}>
+                    <Button addIcon size="extra-large" minWidth >View All</Button>
+                </div>
+                
+            </div>
         </div>
     )
 }
