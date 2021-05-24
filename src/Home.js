@@ -3,6 +3,7 @@ import Header from "./components/header/Header"
 import Hero from "./components/hero/Hero"
 import Roomates from "./components/roommates/Roomates"
 import FeaturedRooms from "./components/featured-rooms/FeaturedRooms"
+import Pitch from "./components/pitch/Pitch"
 
 
 const Home = () => 
@@ -13,6 +14,7 @@ const Home = () =>
             <Hero/>
             <Roomates/>
             <FeaturedRooms/>
+            <Pitch/>
         </>
     )
 }
